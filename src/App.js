@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<MainWebLayout />}>
-          <Route index element={<Home />} />
           <Route path="/about-us" element={<Mongrel />} />
+          <Route index element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>
