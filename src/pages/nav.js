@@ -1,11 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router";
 
 import customJs from "../_assets/js/custom";
 const Nav = () => {
+  const [mongriels, SetMongriels] = useState(false);
+  const location = useLocation();
   useEffect(() => {
     customJs();
   }, []);
+  useEffect(() => {
+    //route change detected. do something here
+    console.log(location);
+    if (location.pathname !== "/") {
+      SetMongriels(true);
+    } else {
+      SetMongriels(false);
+    }
+  }, [location]); //add location in dependency. It detects the location chang
   return (
     <div class="container-fluid p-0">
       <div class="topheader">
@@ -39,9 +51,9 @@ const Nav = () => {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <Link class="nav-link" to="about-us">
                         About Us
-                      </a>
+                      </Link>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">
@@ -97,6 +109,7 @@ const Nav = () => {
         <div class="col-12 top-h-border">
           <nav class="navbar navbar-expand-lg">
             <img src="./valkry-logo-1.png" alt="" />
+            {mongriels && <img src="./mongrels.jpg" alt="" />}
           </nav>
         </div>
       </div>

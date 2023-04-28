@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import MainWebLayout from "./pages/main-web-layout";
 import Home from "./pages/home";
+import Mongrel from "./pages/mongriel";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<MainWebLayout />}>
           <Route index element={<Home />} />
+          <Route path="/about-us" element={<Mongrel />} />
         </Route>
       </Routes>
     </BrowserRouter>

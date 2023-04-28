@@ -204,9 +204,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .top-h-border img {
   width: auto;
-  height: 8.75rem;
-  margin: auto;
-  display: block;
+  height: 8.75rem;  
   margin-bottom: 0.625rem;
 }
 
@@ -272,7 +270,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .navbar-expand-lg {
   padding: 0;
-  flex-wrap: wrap;
+  flex-wrap: wrap; display: block; text-align: center;
 }
 
 .navbar-expand-lg .navbar-nav .nav-item {
@@ -708,6 +706,15 @@ footer .f-logo{
   font-size: 1.25rem; text-align: center;
   margin-bottom: 1.875rem;
 }
+.contentpage3 {
+  padding-top: 0rem;
+  padding-bottom: 1.875rem; 
+}
+.contentpage3 h2 {
+  font-size: 1rem; 
+  text-align: center;
+  margin-bottom: 1.875rem;
+}
 .card-img{
   border-radius: 1.25rem;
   border: solid 0.125rem var(--bs-secondary);
@@ -1018,6 +1025,9 @@ footer .text-end{text-align: center !important; font-size: 0.75rem;}
   .contentpage2 h2 {
     font-size:0.875rem; margin-bottom: 1.25rem;
   }
+  .contentpage3 h2{
+    font-size:0.875rem;  
+  }
   .topheader {
     line-height: normal;
   }
@@ -1093,9 +1103,6 @@ footer .text-end{text-align: center !important; font-size: 0.75rem;}
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0.5rem 0.75rem;
   }
-
- 
-
   .topheader .btn-connect, .topheader .btn-connect2 {
     font-size: 0.6875rem;
     padding: 0.625rem 0.5625rem;
@@ -1111,5 +1118,8 @@ footer .text-end{text-align: center !important; font-size: 0.75rem;}
 
   .heading h1 {
     font-size: 0.875rem;
+  }
+  .top-h-border img {
+    height: 3.75rem;
   }
 }

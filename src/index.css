@@ -1,2 +1,10 @@
 @import url("./_assets/css/bootstrap.min.css");
 @import url("./_assets/css/style.css");
+
+.margin-l {
+  margin-left: 0.625rem;
+}
+
+.margin-r {
+  margin-right: 0.625rem;
+}
