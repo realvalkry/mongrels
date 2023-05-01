@@ -8,3 +8,16 @@
 .margin-r {
   margin-right: 0.625rem;
 }
+
+.margin-t {
+  margin-top: 3rem !important;
+}
+
+.margin-t3 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.margin-l5 {
+  /* margin-left: 150px; */
+}

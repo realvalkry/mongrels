@@ -8,10 +8,10 @@ const Home = () => {
           </div>
 
           <div className="col-lg-6 col-md-6 col-sm-6 col-12 pb-30">
-            <img className="card-img" src="./img-1254.jpg" alt="" />
+            <img className="card-img" src="./img-1254.png" alt="" />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6 col-12 pb-30">
-            <img className="card-img" src="./img-1254.jpg" alt="" />
+            <img className="card-img" src="./img-1254.png" alt="" />
           </div>
 
           <div className="col-12">

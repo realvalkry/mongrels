@@ -1,8 +1,8 @@
 const Mongrel = () => {
   return (
     <>
-      <div class="container contentpage3">
-        <div class="row m-0">
+      <div class="container contentpage3 ">
+        <div class="row m-0 margin-t">
           <div class="col-12">
             <h2>
               Valkry chose the Mongrels as their PFP counterpart in a nod to the
@@ -17,18 +17,17 @@ const Mongrel = () => {
               degen as much as anyone else.
             </h2>
           </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30">
-            <img class="card-img" src="./img-1254.jpg" alt="" />
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30 margin-t3">
+            <img class="card-img" src="./img-1254.png" alt="" />
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30">
-            <img class="card-img" src="./img-1254.jpg" alt="" />
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30 margin-t3">
+            <img class="card-img" src="./img-1254.png" alt="" />
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30">
-            <img class="card-img" src="./img-1254.jpg" alt="" />
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30 margin-t3">
+            <img class="card-img" src="./img-1254.png" alt="" />
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30">
-            <img class="card-img" src="./img-1254.jpg" alt="" />
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12 pb-30 margin-t3">
+            <img class="card-img" src="./img-1254.png" alt="" />
           </div>
 
           <div class="col-12">
