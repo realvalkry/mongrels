@@ -1,32 +1,32 @@
-import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-// import customJs from "../_assets/js/custom";
 const Nav = () => {
-  useEffect(() => {
-    // customJs();
-  }, []);
+  const navigateMongerels = () => {
+    navigate("/mongerels");
+  };
+  const navigate = useNavigate();
   return (
-    <div class="container-fluid p-0">
-      <div class="topheader">
-        <div class="row m-0">
-          <div class="col-auto">
-            <div class="logo">
+    <div className="container-fluid p-0">
+      <div className="topheader">
+        <div className="row m-0">
+          <div className="col-auto">
+            <div className="logo">
               <Link to="/">
                 <img src="./valkry-logo.png" alt="" srcset="" />
               </Link>
             </div>
           </div>
-          <div class="col text-center mt-auto mb-auto set-margin480">
-            Season One Collection drops June 2023!
+          <div className="col text-center mt-auto mb-auto set-margin480">
+            Season I Collection drops Summer 2023
           </div>
-          <div class="col-auto set-w-640">
-            <Link
-              to="/mongerels"
-              class="btn btn-primary btn-connect btn-connect-line"
+          <div className="col-auto set-w-640">
+            <button
+              onClick={navigateMongerels}
+              className="btn btn-primary btn-connect btn-connect-line"
             >
               MONGERELS
-            </Link>
-            <button class="btn btn-primary btn-connect">CONNECT</button>
+            </button>
+            <button className="btn btn-primary btn-connect">CONNECT</button>
           </div>
         </div>
       </div>
