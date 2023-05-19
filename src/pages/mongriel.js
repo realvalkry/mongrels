@@ -210,6 +210,9 @@ const Mongrel = () => {
               survived not only five centuries
             </p>
           </div>
+          <div class="col-12 p-0">
+            <img class="saturn-nft" src="./saturn-nft.jpg" alt="" />
+          </div>
         </div>
 
         <div class="row">

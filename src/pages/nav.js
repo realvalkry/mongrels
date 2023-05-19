@@ -16,7 +16,7 @@ const Nav = () => {
               </Link>
             </div>
           </div>
-          <div class="col text-center mt-auto mb-auto">
+          <div class="col text-center mt-auto mb-auto set-margin480">
             Season One Collection drops June 2023!
           </div>
           <div class="col-auto set-w-640">
