@@ -1,21 +1,10 @@
 const Home = () => {
   return (
     <>
-      <div className="container contentpage2">
-        <div className="row m-0">
-          <div className="col-12">
-            <h2>Cardano's premier community driven web3 brand.</h2>
-          </div>
-
-          <div className="col-lg-6 col-md-6 col-sm-6 col-12 pb-30">
-            <img className="card-img" src="./img-1254.png" alt="" />
-          </div>
-          <div className="col-lg-6 col-md-6 col-sm-6 col-12 pb-30">
-            <img className="card-img" src="./img-1254.png" alt="" />
-          </div>
-
-          <div className="col-12">
-            <img src="./colors-bar.jpg" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-12 p-0">
+            <img class="set-width-logo" src="./Valkry-large.jpg" alt="" />
           </div>
         </div>
       </div>

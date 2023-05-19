@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<MainWebLayout />}>
-          <Route path="/about-us" element={<Mongrel />} />
+          <Route path="/mongerels" element={<Mongrel />} />
           <Route index element={<Home />} />
         </Route>
       </Routes>
