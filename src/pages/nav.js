@@ -19,13 +19,14 @@ const Nav = () => {
           <div className="col text-center mt-auto mb-auto set-margin480">
             Season I Collection Drops Summer 2023
           </div>
+     <div className="col-auto set-w-640">
      <button
               onClick={navigateMongerels}
               className="btn btn-primary btn-connect btn-connect-line"
             >
               VALKRY
             </button>
-          <div className="col-auto set-w-640">
+         
             <button
               onClick={navigateMongerels}
               className="btn btn-primary btn-connect btn-connect-line"
