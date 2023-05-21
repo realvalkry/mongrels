@@ -17,15 +17,22 @@ const Nav = () => {
             </div>
           </div>
           <div className="col text-center mt-auto mb-auto set-margin480">
-            Season I Collection drops Summer 2023
+            Season I Collection Drops Summer 2023
           </div>
+     <button
+              onClick={navigateMongerels}
+              className="btn btn-primary btn-connect btn-connect-line"
+            >
+              VALKRY
+            </button>
           <div className="col-auto set-w-640">
             <button
               onClick={navigateMongerels}
               className="btn btn-primary btn-connect btn-connect-line"
             >
-              MONGERELS
+              MONGRELS
             </button>
+
             <button className="btn btn-primary btn-connect">CONNECT</button>
           </div>
         </div>
