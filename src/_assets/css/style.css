@@ -824,8 +824,9 @@ footer .f-logo {
   font-size: 14px;
 }
 .action-collect {
-  padding-bottom: 30px;
+  padding-bottom: 106px;
   text-align: center;
+  margin-top: -76px;
 }
 .action-collect .btn-primary {
   background-color: #333333;
