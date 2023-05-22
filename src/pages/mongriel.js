@@ -214,7 +214,24 @@ const Mongrel = () => {
             <img class="saturn-nft" src="./saturn-nft.jpg" alt="" />
           </div>
         </div>
-
+        <div class="row filters">
+          <div class="col-md-6 col-sm-6">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Filter</option>
+              <option value="1">Filter One</option>
+              <option value="2">Filter Two</option>
+              <option value="3">Filter Three</option>
+            </select>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <input
+              type="email"
+              class="form-control search"
+              id="exampleFormControlInput1"
+              placeholder="Search Collection"
+            />
+          </div>
+        </div>
         <div class="row">
           {Images &&
             Images.map((item, i) => (
