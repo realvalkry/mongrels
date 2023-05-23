@@ -211,10 +211,13 @@ const Mongrel = () => {
         <div class="row filters">
           <div class="col-md-6 col-sm-6">
             <select class="form-select" aria-label="Default select example">
-              <option selected>Filter</option>
-              <option value="1">Filter One</option>
-              <option value="2">Filter Two</option>
-              <option value="3">Filter Three</option>
+              <option selected>BACKGROUND</option>
+              <option value="1">FUR</option>
+              <option value="2">MOUTH</option>
+              <option value="3">EYES</option>
+              <option value="4">GEAR</option>
+              <option value="5">ACCESSORY</option>
+              <option value="6">HEAD</option>
             </select>
           </div>
           <div class="col-md-6 col-sm-6">
