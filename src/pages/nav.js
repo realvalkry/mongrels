@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   const navigate = useNavigate();
   const navigateMongerels = () => {
-    navigate("/mongerels");
+    navigate("/the-collection");
   };
   return (
     <div className="container-fluid p-0">

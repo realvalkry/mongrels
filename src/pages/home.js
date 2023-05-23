@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const navigate = useNavigate();
   const navigateMongerels = () => {
-    navigate("/mongerels");
+    navigate("/the-collection");
   };
   return (
     <>
