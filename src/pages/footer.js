@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
       </div>
       <div class="container copyright">
-        Copyright 2023. Valkry LLC. All Rights Reserved.
+        Copyright 2023. Valkry™ LLC and Mongrels™. All Rights Reserved.
       </div>
     </footer>
   );
