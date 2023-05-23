@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 const Nav = () => {
+  const navigate = useNavigate();
   const navigateMongerels = () => {
     navigate("/mongerels");
   };
-  const navigate = useNavigate();
   return (
     <div className="container-fluid p-0">
       <div className="topheader">
@@ -19,19 +19,17 @@ const Nav = () => {
           <div className="col text-center mt-auto mb-auto set-margin480">
             Season I Collection Drops Summer 2023
           </div>
-     <div className="col-auto set-w-640">
-     <button
-              onClick={navigateMongerels}
-              className="btn btn-primary btn-connect btn-connect-line"
-            >
-              VALKRY
+          <div className="col-auto set-w-640">
+            <button className="btn btn-primary btn-connect btn-connect-line linkButtonNav">
+              <a className="linkButtonNav" href="https://valkry.life/">
+                VALKRY
+              </a>
             </button>
-         
-            <button
-              onClick={navigateMongerels}
-              className="btn btn-primary btn-connect btn-connect-line"
-            >
-              MONGRELS
+
+            <button className="btn btn-primary btn-connect btn-connect-line linkButtonNav">
+              <a className="linkButtonNav" href="https://mongrels.wtf/">
+                MONGRELS
+              </a>
             </button>
 
             <button className="btn btn-primary btn-connect">CONNECT</button>

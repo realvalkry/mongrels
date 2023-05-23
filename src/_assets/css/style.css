@@ -818,6 +818,26 @@ footer .f-logo {
   width: 280px;
   font-size: 14px;
 }
+.linkButton {
+  color: white;
+  text-decoration: none;
+}
+
+.linkButton a:hover {
+  color: white;
+  /* background-color: white; */
+}
+
+.linkButtonNav {
+  color: #333333;
+  text-decoration: none;
+}
+
+.linkButtonNav a:hover {
+  color: black;
+  /* background-color: white; */
+}
+
 .filters .search {
   margin-left: auto;
   width: 320px;
