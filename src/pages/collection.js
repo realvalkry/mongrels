@@ -8,37 +8,37 @@ const Mongrel = () => {
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Title here show",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
@@ -48,127 +48,127 @@ const Mongrel = () => {
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
     {
       img: img1,
       name: "Mongrels #",
-      price: ADA,
+      price: "ADA",
     },
   ];
   const length = images.length;
@@ -196,15 +196,23 @@ const Mongrel = () => {
 
           <div class="col-12 text-center">
             <p>
-              The Mongrels™ are a 2,999 piece NFT collection on the Cardano™ blockchain.  These NFT's are your access to the Mongrels™ / Valkry™ ecossytem including our community, events, and experiences.
+              The Mongrels™ are a 2,999 piece NFT collection on the Cardano™
+              blockchain. These NFT's are your access to the Mongrels™ / Valkry™
+              ecossytem including our community, events, and experiences.
             </p>
             <p>
-              The Mongrels™ NFT collection is currently minting and can be purchased on secondary markets such as JPG.STORE.  Visit our partner SATURNNFT.IO if you are interested in minting Mongrels!
+              The Mongrels™ NFT collection is currently minting and can be
+              purchased on secondary markets such as JPG.STORE. Visit our
+              partner SATURNNFT.IO if you are interested in minting Mongrels!
             </p>
           </div>
           <div class="col-12 p-0">
             <a href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03">
-              <img class="saturn-nft" src="https://mongrels.wtf/saturn-nft.jpg" alt="" />
+              <img
+                class="saturn-nft"
+                src="https://mongrels.wtf/saturn-nft.jpg"
+                alt=""
+              />
             </a>
           </div>
         </div>
