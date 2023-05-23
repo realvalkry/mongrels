@@ -9,15 +9,27 @@ const Footer = () => {
             <p>To Receive Updates In Your Mailbox</p>
 
             <input type="text" class="form-control" id="inputCity" />
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-primary mt-3">
               SUBMIT
             </button>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
-           <h4>SOCIAL MEDIA</h4>
+            <h4>SOCIAL MEDIA</h4>
             <div class="social-icon F-social">
               <a href="#">
                 <img src="./twitter.svg" alt="Twitter" />
+              </a>
+              <a href="#">
+                <img src="./facebook.svg" alt="Facebook" />
+              </a>
+              <a href="#">
+                <img src="./pinterest.svg" alt="Pinterest" />
+              </a>
+              <a href="#">
+                <img src="./youtube.svg" alt="Youtube" />
+              </a>
+              <a href="#">
+                <img src="./instagram.svg" alt="Instagram" />
               </a>
               <a href="#">
                 <img src="./discord.svg" alt="Discord" />
@@ -53,11 +65,8 @@ const Footer = () => {
               <li>
                 <a href="#">Mongrels™</a>
               </li>
-            
             </ul>
           </div>
-         
-       
         </div>
       </div>
       <div class="container copyright">
