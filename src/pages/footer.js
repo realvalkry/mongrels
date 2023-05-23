@@ -14,21 +14,15 @@ const Footer = () => {
             </button>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
-            <h4>SPORTS</h4>
-            <ul>
-              <li>
-                <a href="#">Skate</a>
-              </li>
-              <li>
-                <a href="#">Water</a>
-              </li>
-              <li>
-                <a href="#">Snow</a>
-              </li>
-              <li>
-                <a href="#">BMX</a>
-              </li>
-            </ul>
+           <h4>SOCIAL MEDIA</h4>
+            <div class="social-icon F-social">
+              <a href="#">
+                <img src="./twitter.svg" alt="Twitter" />
+              </a>
+              <a href="#">
+                <img src="./discord.svg" alt="Discord" />
+              </a>
+            </div>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
             <h4>COMPANY</h4>
@@ -62,15 +56,7 @@ const Footer = () => {
             
             </ul>
           </div>
-          <div class="col-lg-3 col-md-4 subscribe">
-            <h4>SUBSCRIBE</h4>
-            <p>To Receive Updates In Your Mailbox</p>
-
-            <input type="text" class="form-control" id="inputCity" />
-            <button type="submit" class="btn btn-primary">
-              SUBMIT
-            </button>
-          </div>
+         
           <div class="col-lg-3 col-md-4">
             <h4>SOCIAL MEDIA</h4>
             <div class="social-icon F-social">
