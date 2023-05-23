@@ -211,7 +211,9 @@ const Mongrel = () => {
             </p>
           </div>
           <div class="col-12 p-0">
-            <img class="saturn-nft" src="./saturn-nft.jpg" alt="" />
+            <a href="https://www.google.com/">
+              <img class="saturn-nft" src="./saturn-nft.jpg" alt="" />
+            </a>
           </div>
         </div>
         <div class="row filters">
