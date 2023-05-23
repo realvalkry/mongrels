@@ -57,17 +57,7 @@ const Footer = () => {
             </ul>
           </div>
          
-          <div class="col-lg-3 col-md-4">
-            <h4>SOCIAL MEDIA</h4>
-            <div class="social-icon F-social">
-              <a href="#">
-                <img src="./twitter.svg" alt="Twitter" />
-              </a>
-              <a href="#">
-                <img src="./discord.svg" alt="Discord" />
-              </a>
-            </div>
-          </div>
+       
         </div>
       </div>
       <div class="container copyright">
