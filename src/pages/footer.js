@@ -5,22 +5,13 @@ const Footer = () => {
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4 col-6">
-            <h4>SHOPPING</h4>
-            <ul>
-              <li>
-                <a href="#">New Collection</a>
-              </li>
-              <li>
-                <a href="#">Apparel</a>
-              </li>
-              <li>
-                <a href="#">Accessories</a>
-              </li>
-              <li>
-                <a href="#">On Sale</a>
-              </li>
-              
-            </ul>
+            <h4>SUBSCRIBE</h4>
+            <p>To Receive Updates In Your Mailbox</p>
+
+            <input type="text" class="form-control" id="inputCity" />
+            <button type="submit" class="btn btn-primary">
+              SUBMIT
+            </button>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
             <h4>SPORTS</h4>
