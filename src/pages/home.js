@@ -10,7 +10,7 @@ const Home = () => {
             <button class="btn btn-primary">MINT MONGRELS</button>
             <button class="btn btn-primary">MY DASHBOARD</button>
             <button class="btn btn-primary">THE COLLECTION</button>
-            <button class="btn btn-primary">OUR STORY</button>
+            <button class="btn btn-primary">CLUBS / PACKS</button>
             <button class="btn btn-primary">VALKRY</button>
           </div>
         </div>
