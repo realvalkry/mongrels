@@ -9,7 +9,7 @@ const Footer = () => {
             <p>To Receive Updates In Your Mailbox</p>
 
             <input type="text" class="form-control" id="inputCity" />
-            <button type="submit" class="btn btn-primary mt-3">
+            <button type="submit" class="btn btn-primary mt-3 mb-4">
               SUBMIT
             </button>
           </div>
