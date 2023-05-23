@@ -196,23 +196,15 @@ const Mongrel = () => {
 
           <div class="col-12 text-center">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries
+              The Mongrels™ are a 2,999 piece NFT collection on the Cardano™ blockchain.  These NFT's are your access to the Mongrels™ / Valkry™ ecossytem including our community, events, and experiences.
             </p>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries
+              The Mongrels™ NFT collection is currently minting and can be purchased on secondary markets such as JPG.STORE.  Visit our partner SATURNNFT.IO if you are interested in minting Mongrels!
             </p>
           </div>
           <div class="col-12 p-0">
             <a href="https://www.google.com/">
-              <img class="saturn-nft" src="./saturn-nft.jpg" alt="" />
+              <img class="saturn-nft" src="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03" alt="" />
             </a>
           </div>
         </div>
@@ -252,7 +244,7 @@ const Mongrel = () => {
           {!hideButton ? (
             <div class="col-12">
               <button onClick={LoadMoreIamges} class="btn btn-Mongerels">
-                View More Mongerels
+                View More Mongrels
               </button>
             </div>
           ) : (
