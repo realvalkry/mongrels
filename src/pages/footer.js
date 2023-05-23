@@ -45,13 +45,13 @@ const Footer = () => {
             <h4>NFTS</h4>
             <ul>
               <li>
-                <a href="#">Valkry Decks</a>
+                <a href="#">Valkry™ Decks</a>
               </li>
               <li>
-                <a href="#">Valkry Founders Pass</a>
+                <a href="#">Valkry™ Founders Pass</a>
               </li>
               <li>
-                <a href="#">Mongrels</a>
+                <a href="#">Mongrels™</a>
               </li>
             
             </ul>
