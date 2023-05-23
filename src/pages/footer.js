@@ -8,7 +8,7 @@ const Footer = () => {
             <h4>SHOPPING</h4>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="#">New Collection</a>
               </li>
               <li>
                 <a href="#">Apparel</a>
@@ -17,24 +17,19 @@ const Footer = () => {
                 <a href="#">Accessories</a>
               </li>
               <li>
-                <a href="#">Men's</a>
+                <a href="#">On Sale</a>
               </li>
-              <li>
-                <a href="#">Women's</a>
-              </li>
-              <li>
-                <a href="#">Clearance</a>
-              </li>
+              
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
             <h4>SPORTS</h4>
             <ul>
               <li>
-                <a href="#">Skating</a>
+                <a href="#">Skate</a>
               </li>
               <li>
-                <a href="#">Watersports</a>
+                <a href="#">Water</a>
               </li>
               <li>
                 <a href="#">Snow</a>
@@ -68,14 +63,12 @@ const Footer = () => {
                 <a href="#">Valkry Decks</a>
               </li>
               <li>
-                <a href="#">Phase II</a>
+                <a href="#">Valkry Founders Pass</a>
               </li>
               <li>
-                <a href="#">What Are NFTs?</a>
+                <a href="#">Mongrels</a>
               </li>
-              <li>
-                <a href="#">How To Purchase</a>
-              </li>
+            
             </ul>
           </div>
           <div class="col-lg-3 col-md-4 subscribe">
