@@ -1,7 +1,10 @@
-import img1 from "../_assets/images/img-1254.jpg";
-import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 const Naming = () => {
-  
+  const navigate = useNavigate();
+  const navigateMongerels = () => {
+    navigate("/the-collection");
   };
   return (
     <>
