@@ -115,7 +115,7 @@ const Naming = () => {
                   onChange={(e) => setIsChecked(e.target.checked)}
                 />
                 <label htmlFor="agreement">
-                  I agree to the <a href="#"> terms and conditions </a>
+                  I agree to the <a href="https://valkry.life/terms-conditions"> terms and conditions </a>
                 </label>
               </div>
               <button type="submit" className="submit-btn" onClick={handleSubmit}>
