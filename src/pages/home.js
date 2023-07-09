@@ -35,7 +35,7 @@ const Home = () => {
                 className="linkButton"
                 href="#"
               >
-              DOG NAMING
+              NAME A MONGREL
                   </a>
             </button>
             <button class="btn btn-primary linkButton">
