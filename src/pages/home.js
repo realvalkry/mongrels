@@ -33,7 +33,7 @@ const Home = () => {
             <button class="btn btn-primary linkButton ">
                    <a
                 className="linkButton"
-                href="#"
+                href="https://mongrels.wtf/naming.js"
               >
               NAME A MONGREL
                   </a>
