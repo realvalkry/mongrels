@@ -66,7 +66,14 @@ const Naming = () => {
           <div className="form-container-new">
             <h1>Name Your Mongrel</h1>
   <p>While we consider Mongrel naming to be a right of passage, and a unique ownership characteristic, it is absolutely NOT required.  Once a name is approved, and upgraded by it's owner, it will remain his name FOREVER.  Each Mongrel can only be named ONCE!</p>
-            <form>
+  <p>Please do not submit a name for a Mongrel you do not own.  Each upgrade requires a secure wallet connection and owner approval.</p>
+  <ul>
+    <li>Excessive obsencity / profanity will be denied!</li>
+<li>Excessive use of numbers / symbols will be denied!</li>
+<li>Duplicate naming / confusingly similar naming will not be allowed!</li>
+  </ul>
+  <p>And finally, please keep in mind the future market for your Mongrel and how a name could negatively impact your potential sale price.</p>
+  <form>
               <div className="form-control-field">
                 <label htmlFor="mongrelID">Mongrel ID</label>
                 <input
