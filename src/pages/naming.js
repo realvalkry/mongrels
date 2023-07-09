@@ -1,6 +1,6 @@
 import img1 from "../_assets/images/img-1254.jpg";
 import React, { useState, useEffect } from "react";
-const Mongrel = () => {
+const Naming = () => {
   const [Images, SetImages] = useState([]);
   const [end, SetEnd] = useState(24);
   const [hideButton, SetHideButton] = useState(false);
@@ -212,4 +212,4 @@ const Mongrel = () => {
   );
 };
 
-export default Mongrel;
+export default Naming;
