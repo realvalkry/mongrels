@@ -32,7 +32,9 @@ const Naming = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
-        alert(data.message);
+        alert(
+          "Thank you for submitting a proposed name for your beloved Mongrel.  All submissions are manually approved.  Please allow up to 48 hours for processing however it is generally much quicker.  Once approved you will receive an email with the final steps involved in upgrading your Mongrel."
+        );
         setId("");
         setName("");
         setEmail("");
