@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import MainWebLayout from "./pages/main-web-layout";
 import Home from "./pages/home";
 import Mongrel from "./pages/collection";
+import Naming from "./pages/naming";
 
 function App() {
   return (
