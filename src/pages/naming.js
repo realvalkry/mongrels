@@ -33,6 +33,9 @@ const Naming = () => {
       .then((data) => {
         console.log(data);
         alert(data.message);
+        setId("");
+        setName("");
+        setEmail("");
         // Handle success or display error message to the user
       })
       .catch((error) => {
