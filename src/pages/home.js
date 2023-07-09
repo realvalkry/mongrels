@@ -17,9 +17,9 @@ const Home = () => {
             <button class="btn btn-primary linkButton">
               <a
                 className="linkButton"
-                href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
+                href="#"
               >
-                MINT MONGRELS
+                BUY MONGRELS
               </a>
             </button>
             <button class="btn btn-primary linkButton ">
@@ -27,27 +27,32 @@ const Home = () => {
                 className="linkButton"
                 href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
               >
-                MY DASHBOARD
+                COMMUNITY
               </a>
             </button>
-            <button class="btn btn-primary" onClick={navigateMongerels}>
-              THE COLLECTION
-            </button>
-            <button class="btn btn-primary linkButton">
-              {" "}
-              <a
+            <button class="btn btn-primary linkButton ">
+                   <a
                 className="linkButton"
-                href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
+                href="#"
               >
-                CLUBS / PACKS{" "}
-              </a>
+              DOG NAMING
+                  </a>
             </button>
             <button class="btn btn-primary linkButton">
+              
               <a
                 className="linkButton"
                 href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
               >
                 VALKRY
+              </a>
+            </button>
+            <button class="btn btn-primary linkButton">
+              <a
+                className="linkButton"
+                href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
+              >
+                CONTACT
               </a>
             </button>
           </div>
