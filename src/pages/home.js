@@ -5,6 +5,7 @@ const Home = () => {
   const navigate = useNavigate();
   const navigateMongerels = () => {
     navigate("/the-collection");
+    navigate("/naming");
   };
   return (
     <>
