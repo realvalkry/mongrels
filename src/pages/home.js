@@ -17,7 +17,7 @@ const Home = () => {
             <button class="btn btn-primary linkButton">
               <a
                 className="linkButton"
-                href="#"
+                href="https://www.jpg.store/collection/mongrels?tab=items"
               >
                 BUY MONGRELS
               </a>
@@ -25,7 +25,7 @@ const Home = () => {
             <button class="btn btn-primary linkButton ">
               <a
                 className="linkButton"
-                href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
+                href="https://discord.gg/aju3FyCAcq"
               >
                 COMMUNITY
               </a>
@@ -42,7 +42,7 @@ const Home = () => {
               
               <a
                 className="linkButton"
-                href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
+                href="https://valkry.life"
               >
                 VALKRY
               </a>
@@ -50,7 +50,7 @@ const Home = () => {
             <button class="btn btn-primary linkButton">
               <a
                 className="linkButton"
-                href="https://saturnnft.io/mint/e3cf323e-e535-47fc-afb2-3313595f5b03"
+                href="mailto:hello@valkry.life"
               >
                 CONTACT
               </a>
