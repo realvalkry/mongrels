@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<MainWebLayout />}>
           <Route path="/the-collection" element={<Mongrel />} />
+          <Route path="/name-a-mongrel" element={<Naming />} />
           <Route index element={<Home />} />
         </Route>
       </Routes>

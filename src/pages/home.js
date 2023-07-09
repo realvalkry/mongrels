@@ -16,43 +16,27 @@ const Home = () => {
           </div>
           <div class="col-12 action-collect">
             <button class="btn btn-primary linkButton">
-              <a
-                className="linkButton"
-                href="https://www.jpg.store/collection/mongrels?tab=items"
-              >
+              <a className="linkButton" href="https://www.jpg.store/collection/mongrels?tab=items">
                 BUY MONGRELS
               </a>
             </button>
             <button class="btn btn-primary linkButton ">
-              <a
-                className="linkButton"
-                href="https://discord.gg/aju3FyCAcq"
-              >
+              <a className="linkButton" href="https://discord.gg/aju3FyCAcq">
                 COMMUNITY
               </a>
             </button>
             <button class="btn btn-primary linkButton ">
-                   <a
-                className="linkButton"
-                href="https://mongrels.wtf/naming.js"
-              >
-              NAME A MONGREL
-                  </a>
+              <Link to="/name-a-mongrel" className="linkButton">
+                NAME A MONGREL
+              </Link>
             </button>
             <button class="btn btn-primary linkButton">
-              
-              <a
-                className="linkButton"
-                href="https://valkry.life"
-              >
+              <a className="linkButton" href="https://valkry.life">
                 VALKRY
               </a>
             </button>
             <button class="btn btn-primary linkButton">
-              <a
-                className="linkButton"
-                href="mailto:hello@valkry.life"
-              >
+              <a className="linkButton" href="mailto:hello@valkry.life">
                 CONTACT
               </a>
             </button>
