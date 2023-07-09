@@ -64,10 +64,11 @@ const Naming = () => {
           </div> */}
 
           <div className="form-container-new">
-            <h1>Get in Touch</h1>
+            <h1>Name Your Mongrel</h1>
+  <p>While we consider Mongrel naming to be a right of passage, and a unique ownership characteristic, it is absolutely NOT required.  Once a name is approved, and upgraded by it's owner, it will remain his name FOREVER.  Each Mongrel can only be named ONCE!</p>
             <form>
               <div className="form-control-field">
-                <label htmlFor="mongrelID">Mongreal ID</label>
+                <label htmlFor="mongrelID">Mongrel ID</label>
                 <input
                   type="text"
                   placeholder="Mongrel ID"
