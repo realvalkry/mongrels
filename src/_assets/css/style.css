@@ -861,6 +861,72 @@ footer .f-logo {
   margin-bottom: 1.25rem;
 }
 
+/* Form Styling New */
+
+.form-container-new {
+  max-width: 540px;
+  margin: 0 auto;
+}
+.form-container-new form {
+  padding-bottom: 2rem;
+}
+.form-container-new h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.form-control-field {
+  margin-bottom: 16px;
+}
+.form-control-field label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.form-control-field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #d2d2d2;
+  padding: 12px;
+  border-radius: 8px;
+}
+.form-control-field input::placeholder {
+  font-size: 14px;
+}
+.form-control-checkbox {
+  display: flex;
+  align-items: center;
+}
+.form-control-checkbox label {
+  cursor: pointer;
+  font-size: 14px;
+}
+.form-control-checkbox input {
+  margin-right: 8px;
+}
+
+.submit-btn {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 12px 0;
+  line-height: 26px;
+  margin-top: 16px;
+  transition: 0.3s all ease;
+}
+.submit-btn:hover {
+  background-color: #ff3334;
+  color: #fff;
+  border: 1px solid #ff3334;
+  transition: 0.3s all ease;
+}
+
 @media (max-width: 1024px) {
   .mongerels {
     max-width: 35rem;
@@ -970,10 +1036,8 @@ footer .f-logo {
     opacity: 0;
     transition: opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99),
       -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-    transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99),
-      opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-    transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99),
-      opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99),
+    transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+    transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99),
       -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   }
 
