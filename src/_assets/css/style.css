@@ -919,10 +919,11 @@ footer .f-logo {
   line-height: 26px;
   margin-top: 16px;
   transition: 0.3s all ease;
+  color: #333333;
 }
 .submit-btn:hover {
   background-color: #ff3334;
-  color: #fff;
+  color: #ffffff;
   border: 1px solid #ff3334;
   transition: 0.3s all ease;
 }
