@@ -27,7 +27,7 @@ const Home = () => {
             </button>
             <button class="btn btn-primary linkButton ">
               <Link to="/name-a-mongrel" className="linkButton">
-                NAME A MONGREL
+                NAME YOUR MONGREL
               </Link>
             </button>
             <button class="btn btn-primary linkButton">
